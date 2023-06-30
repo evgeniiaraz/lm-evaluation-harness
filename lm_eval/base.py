@@ -176,7 +176,9 @@ class BaseLM(LM):
     def _detect_batch_size(self, requests=None, pos=0):
         if requests:
             _, context_enc, continuation_enc = requests[pos]
-            max_length = len((context_enc + continuation_enc)[-(self.max_length + 1) :][:-1])
+            max_length = len(
+                (context_enc + continuation_enc)[-(self.max_length + 1) :][:-1]
+            )
         else:
             max_length = self.max_length
 
@@ -212,7 +214,9 @@ class BaseLM(LM):
         for context, continuation in requests:
             if context == "":
                 # end of text as context
-                context_enc, continuation_enc = [self.eot_token_id], self.tok_encode(continuation)
+                context_enc, continuation_enc = [self.eot_token_id], self.tok_encode(
+                    continuation
+                )
             else:
                 context_enc, continuation_enc = self._encode_pair(context, continuation)
 
@@ -290,15 +294,23 @@ class BaseLM(LM):
             sched = pos // int(n_reordered_requests / self.batch_schedule)
             if sched in self.batch_sizes:
                 return self.batch_sizes[sched]
-            print(f"Passed argument batch_size = auto:{self.batch_schedule}. Detecting largest batch size")
+            print(
+                f"Passed argument batch_size = auto:{self.batch_schedule}. Detecting largest batch size"
+            )
             self.batch_sizes[sched] = self._detect_batch_size(reordered_requests, pos)
             print(f"Determined largest batch size: {self.batch_sizes[sched]}")
             return self.batch_sizes[sched]
 
         for chunk in utils.chunks(
             tqdm(reordered_requests, disable=disable_tqdm),
-            n=self.batch_size if self.batch_size != "auto" else override_bs if override_bs is not None else 0,
-            fn=_batch_scheduler if self.batch_size == "auto" and n_reordered_requests > 0 else None,
+            n=self.batch_size
+            if self.batch_size != "auto"
+            else override_bs
+            if override_bs is not None
+            else 0,
+            fn=_batch_scheduler
+            if self.batch_size == "auto" and n_reordered_requests > 0
+            else None,
         ):
             inps = []
             cont_toks_list = []
