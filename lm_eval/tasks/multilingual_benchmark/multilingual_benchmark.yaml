@@ -18,7 +18,7 @@ task:
   # - global_mmlu_full_de
   # - global_mmlu_full_el
   # - global_mmlu_full_en
-  - global_mmlu_full_es
+  # - global_mmlu_full_es
   # - global_mmlu_full_fa
   # - global_mmlu_full_fil
   # - global_mmlu_full_fr
@@ -52,6 +52,8 @@ task:
   # - global_mmlu_full_vi
   # - global_mmlu_full_yo
   # - global_mmlu_full_zh
+  - flores_en-tgtlang
+  # - flores_srclang-en 
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
