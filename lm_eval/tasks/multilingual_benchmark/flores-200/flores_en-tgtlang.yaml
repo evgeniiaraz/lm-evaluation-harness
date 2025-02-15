@@ -1,208 +1,208 @@
 group: flores_en-tgtlang
 task:
-  # - flores_translate_en-ace
-  # - flores_translate_en-bm
-  # - flores_translate_en-dz
-  # - flores_translate_en-hi
-  # - flores_translate_en-km
-  # - flores_translate_en-mag
-  # - flores_translate_en-pap
-  # - flores_translate_en-st
-  # - flores_translate_en-tr
-  # - flores_translate_en-ace
-  # - flores_translate_en-ban
-  # - flores_translate_en-el
-  # - flores_translate_en-hne
-  # - flores_translate_en-ki
-  # - flores_translate_en-mai
-  # - flores_translate_en-pbt
+  - flores_translate_en-ace
+  - flores_translate_en-bm
+  - flores_translate_en-dz
+  - flores_translate_en-hi
+  - flores_translate_en-km
+  - flores_translate_en-mag
+  - flores_translate_en-pap
+  - flores_translate_en-st
+  - flores_translate_en-tr
+  - flores_translate_en-ace
+  - flores_translate_en-ban
+  - flores_translate_en-el
+  - flores_translate_en-hne
+  - flores_translate_en-ki
+  - flores_translate_en-mai
+  - flores_translate_en-pbt
   - flores_translate_en-es
-  # - flores_translate_en-tw
-  # - flores_translate_en-acm
-  # - flores_translate_en-be
-  # - flores_translate_en-hr
-  # - flores_translate_en-rw
-  # - flores_translate_en-ml
-  # - flores_translate_en-pes
-  # - flores_translate_en-sc
-  # - flores_translate_en-tzm
-  # - flores_translate_en-acq
-  # - flores_translate_en-bem
-  # - flores_translate_en-eo
-  # - flores_translate_en-hu
-  # - flores_translate_en-ky
-  # - flores_translate_en-mr
-  # - flores_translate_en-plt
-  # - flores_translate_en-sr
-  # - flores_translate_en-ug
-  # - flores_translate_en-aeb
-  # - flores_translate_en-bn
-  # - flores_translate_en-et
-  # - flores_translate_en-hy
-  # - flores_translate_en-kmb
-  # - flores_translate_en-min
-  # - flores_translate_en-pl
-  # - flores_translate_en-ss
-  # - flores_translate_en-uk
-  # - flores_translate_en-af
-  # - flores_translate_en-bho
-  # - flores_translate_en-eu
-  # - flores_translate_en-ig
-  # - flores_translate_en-kmr
-  # - flores_translate_en-min
-  # - flores_translate_en-pt
-  # - flores_translate_en-su
-  # - flores_translate_en-umb
-  # - flores_translate_en-ajp
-  # - flores_translate_en-bjn
-  # - flores_translate_en-ee
-  # - flores_translate_en-ilo
-  # - flores_translate_en-knc
-  # - flores_translate_en-mk
-  # - flores_translate_en-fa
-  # - flores_translate_en-sv
-  # - flores_translate_en-ur
-  # - flores_translate_en-ak
-  # - flores_translate_en-bjn
-  # - flores_translate_en-fo
-  # - flores_translate_en-id
-  # - flores_translate_en-knc
-  # - flores_translate_en-mt
-  # - flores_translate_en-quy
-  # - flores_translate_en-swh
-  # - flores_translate_en-uzn
-  # - flores_translate_en-als
-  # - flores_translate_en-bo
-  # - flores_translate_en-fj
-  # - flores_translate_en-is
-  # - flores_translate_en-kg
-  # - flores_translate_en-mni
-  # - flores_translate_en-ro
-  # - flores_translate_en-szl
-  # - flores_translate_en-vec
-  # - flores_translate_en-am
-  # - flores_translate_en-bs
-  # - flores_translate_en-fi
-  # - flores_translate_en-it
-  # - flores_translate_en-ko
-  # - flores_translate_en-mos
-  # - flores_translate_en-rn
-  # - flores_translate_en-ta
-  # - flores_translate_en-vi
-  # - flores_translate_en-apc
-  # - flores_translate_en-bug
-  # - flores_translate_en-fon
-  # - flores_translate_en-jv
-  # - flores_translate_en-lo
-  # - flores_translate_en-mi
-  # - flores_translate_en-ru
-  # - flores_translate_en-taq
-  # - flores_translate_en-war
-  # - flores_translate_en-arb
-  # - flores_translate_en-bg
+  - flores_translate_en-tw
+  - flores_translate_en-acm
+  - flores_translate_en-be
+  - flores_translate_en-hr
+  - flores_translate_en-rw
+  - flores_translate_en-ml
+  - flores_translate_en-pes
+  - flores_translate_en-sc
+  - flores_translate_en-tzm
+  - flores_translate_en-acq
+  - flores_translate_en-bem
+  - flores_translate_en-eo
+  - flores_translate_en-hu
+  - flores_translate_en-ky
+  - flores_translate_en-mr
+  - flores_translate_en-plt
+  - flores_translate_en-sr
+  - flores_translate_en-ug
+  - flores_translate_en-aeb
+  - flores_translate_en-bn
+  - flores_translate_en-et
+  - flores_translate_en-hy
+  - flores_translate_en-kmb
+  - flores_translate_en-min
+  - flores_translate_en-pl
+  - flores_translate_en-ss
+  - flores_translate_en-uk
+  - flores_translate_en-af
+  - flores_translate_en-bho
+  - flores_translate_en-eu
+  - flores_translate_en-ig
+  - flores_translate_en-kmr
+  - flores_translate_en-min
+  - flores_translate_en-pt
+  - flores_translate_en-su
+  - flores_translate_en-umb
+  - flores_translate_en-ajp
+  - flores_translate_en-bjn
+  - flores_translate_en-ee
+  - flores_translate_en-ilo
+  - flores_translate_en-knc
+  - flores_translate_en-mk
+  - flores_translate_en-fa
+  - flores_translate_en-sv
+  - flores_translate_en-ur
+  - flores_translate_en-ak
+  - flores_translate_en-bjn
+  - flores_translate_en-fo
+  - flores_translate_en-id
+  - flores_translate_en-knc
+  - flores_translate_en-mt
+  - flores_translate_en-quy
+  - flores_translate_en-swh
+  - flores_translate_en-uzn
+  - flores_translate_en-als
+  - flores_translate_en-bo
+  - flores_translate_en-fj
+  - flores_translate_en-is
+  - flores_translate_en-kg
+  - flores_translate_en-mni
+  - flores_translate_en-ro
+  - flores_translate_en-szl
+  - flores_translate_en-vec
+  - flores_translate_en-am
+  - flores_translate_en-bs
+  - flores_translate_en-fi
+  - flores_translate_en-it
+  - flores_translate_en-ko
+  - flores_translate_en-mos
+  - flores_translate_en-rn
+  - flores_translate_en-ta
+  - flores_translate_en-vi
+  - flores_translate_en-apc
+  - flores_translate_en-bug
+  - flores_translate_en-fon
+  - flores_translate_en-jv
+  - flores_translate_en-lo
+  - flores_translate_en-mi
+  - flores_translate_en-ru
+  - flores_translate_en-taq
+  - flores_translate_en-war
+  - flores_translate_en-arb
+  - flores_translate_en-bg
   - flores_translate_en-fr
-  # - flores_translate_en-ja
-  # - flores_translate_en-lij
-  # - flores_translate_en-my
-  # - flores_translate_en-sg
-  # - flores_translate_en-taq
-  # - flores_translate_en-wo
-  # - flores_translate_en-arb
-  # - flores_translate_en-ca
-  # - flores_translate_en-fur
-  # - flores_translate_en-kab
-  # - flores_translate_en-li
-  # - flores_translate_en-nl
-  # - flores_translate_en-sa
-  # - flores_translate_en-tt
-  # - flores_translate_en-xh
-  # - flores_translate_en-ars
-  # - flores_translate_en-ceb
-  # - flores_translate_en-fuv
-  # - flores_translate_en-kac
-  # - flores_translate_en-ln
-  # - flores_translate_en-nn
-  # - flores_translate_en-sat
-  # - flores_translate_en-te
-  # - flores_translate_en-ydd
-  # - flores_translate_en-ary
-  # - flores_translate_en-cs
-  # - flores_translate_en-gaz
-  # - flores_translate_en-kam
-  # - flores_translate_en-lt
-  # - flores_translate_en-nb
-  # - flores_translate_en-scn
-  # - flores_translate_en-tg
-  # - flores_translate_en-yo
-  # - flores_translate_en-arz
-  # - flores_translate_en-cjk
-  # - flores_translate_en-gd
-  # - flores_translate_en-kn
-  # - flores_translate_en-lmo
-  # - flores_translate_en-npi
-  # - flores_translate_en-shn
-  # - flores_translate_en-fil
-  # - flores_translate_en-yue
-  # - flores_translate_en-as
-  # - flores_translate_en-ckb
-  # - flores_translate_en-ga
-  # - flores_translate_en-ks
-  # - flores_translate_en-ltg
-  # - flores_translate_en-nso
-  # - flores_translate_en-si
-  # - flores_translate_en-th
-  # - flores_translate_en-zh
-  # - flores_translate_en-ast
-  # - flores_translate_en-crh
-  # - flores_translate_en-gl
-  # - flores_translate_en-ks
-  # - flores_translate_en-lb
-  # - flores_translate_en-nus
-  # - flores_translate_en-sk
-  # - flores_translate_en-ti
-  # - flores_translate_en-zh
-  # - flores_translate_en-awa
-  # - flores_translate_en-cy
-  # - flores_translate_en-gn
-  # - flores_translate_en-ka
-  # - flores_translate_en-lua
-  # - flores_translate_en-ny
-  # - flores_translate_en-sl
-  # - flores_translate_en-tpi
-  # - flores_translate_en-zsm
-  # - flores_translate_en-ayr
-  # - flores_translate_en-da
-  # - flores_translate_en-gu
-  # - flores_translate_en-kk
-  # - flores_translate_en-lg
-  # - flores_translate_en-oc
-  # - flores_translate_en-sm
-  # - flores_translate_en-tn
-  # - flores_translate_en-zu
-  # - flores_translate_en-azb
-  # - flores_translate_en-de
-  # - flores_translate_en-ht
-  # - flores_translate_en-kbp
-  # - flores_translate_en-luo
-  # - flores_translate_en-ory
-  # - flores_translate_en-sn
-  # - flores_translate_en-ts
-  # - flores_translate_en-azj
-  # - flores_translate_en-dik
-  # - flores_translate_en-ha
-  # - flores_translate_en-kea
-  # - flores_translate_en-lus
-  # - flores_translate_en-pag
-  # - flores_translate_en-sd
-  # - flores_translate_en-tk
-  # - flores_translate_en-ba
-  # - flores_translate_en-dyu
-  # - flores_translate_en-he
-  # - flores_translate_en-khk
-  # - flores_translate_en-lvs
-  # - flores_translate_en-pa
-  # - flores_translate_en-so
-  # - flores_translate_en-tum      
+  - flores_translate_en-ja
+  - flores_translate_en-lij
+  - flores_translate_en-my
+  - flores_translate_en-sg
+  - flores_translate_en-taq
+  - flores_translate_en-wo
+  - flores_translate_en-arb
+  - flores_translate_en-ca
+  - flores_translate_en-fur
+  - flores_translate_en-kab
+  - flores_translate_en-li
+  - flores_translate_en-nl
+  - flores_translate_en-sa
+  - flores_translate_en-tt
+  - flores_translate_en-xh
+  - flores_translate_en-ars
+  - flores_translate_en-ceb
+  - flores_translate_en-fuv
+  - flores_translate_en-kac
+  - flores_translate_en-ln
+  - flores_translate_en-nn
+  - flores_translate_en-sat
+  - flores_translate_en-te
+  - flores_translate_en-ydd
+  - flores_translate_en-ary
+  - flores_translate_en-cs
+  - flores_translate_en-gaz
+  - flores_translate_en-kam
+  - flores_translate_en-lt
+  - flores_translate_en-nb
+  - flores_translate_en-scn
+  - flores_translate_en-tg
+  - flores_translate_en-yo
+  - flores_translate_en-arz
+  - flores_translate_en-cjk
+  - flores_translate_en-gd
+  - flores_translate_en-kn
+  - flores_translate_en-lmo
+  - flores_translate_en-npi
+  - flores_translate_en-shn
+  - flores_translate_en-fil
+  - flores_translate_en-yue
+  - flores_translate_en-as
+  - flores_translate_en-ckb
+  - flores_translate_en-ga
+  - flores_translate_en-ks
+  - flores_translate_en-ltg
+  - flores_translate_en-nso
+  - flores_translate_en-si
+  - flores_translate_en-th
+  - flores_translate_en-zh
+  - flores_translate_en-ast
+  - flores_translate_en-crh
+  - flores_translate_en-gl
+  - flores_translate_en-ks
+  - flores_translate_en-lb
+  - flores_translate_en-nus
+  - flores_translate_en-sk
+  - flores_translate_en-ti
+  - flores_translate_en-zh
+  - flores_translate_en-awa
+  - flores_translate_en-cy
+  - flores_translate_en-gn
+  - flores_translate_en-ka
+  - flores_translate_en-lua
+  - flores_translate_en-ny
+  - flores_translate_en-sl
+  - flores_translate_en-tpi
+  - flores_translate_en-zsm
+  - flores_translate_en-ayr
+  - flores_translate_en-da
+  - flores_translate_en-gu
+  - flores_translate_en-kk
+  - flores_translate_en-lg
+  - flores_translate_en-oc
+  - flores_translate_en-sm
+  - flores_translate_en-tn
+  - flores_translate_en-zu
+  - flores_translate_en-azb
+  - flores_translate_en-de
+  - flores_translate_en-ht
+  - flores_translate_en-kbp
+  - flores_translate_en-luo
+  - flores_translate_en-ory
+  - flores_translate_en-sn
+  - flores_translate_en-ts
+  - flores_translate_en-azj
+  - flores_translate_en-dik
+  - flores_translate_en-ha
+  - flores_translate_en-kea
+  - flores_translate_en-lus
+  - flores_translate_en-pag
+  - flores_translate_en-sd
+  - flores_translate_en-tk
+  - flores_translate_en-ba
+  - flores_translate_en-dyu
+  - flores_translate_en-he
+  - flores_translate_en-khk
+  - flores_translate_en-lvs
+  - flores_translate_en-pa
+  - flores_translate_en-so
+  - flores_translate_en-tum      
 aggregate_metric_list:
   - metric: bleu
     aggregation: mean
